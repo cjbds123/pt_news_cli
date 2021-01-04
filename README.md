@@ -4,8 +4,8 @@
 ## Install
 
 ```
-git init
 git clone https://github.com/cjbds123/pt_news_cli.git
+cd pt_news_cli
 sh install.sh
 ```
 
