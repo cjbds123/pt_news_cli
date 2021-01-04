@@ -1,10 +1,12 @@
 # coding: utf-8
 import requests
-def to_integer(dt_time):
-    return 10000*dt_time.year + 100*dt_time.month + dt_time.day
 from docx import Document
 from docx.shared import Inches
 import datetime
+
+def to_integer(dt_time):
+    return 10000*dt_time.year + 100*dt_time.month + dt_time.day
+
 
 obs_news = requests.get('https://api.observador.pt/wp/lists/featured')
 obs_news = obs_news.json()
