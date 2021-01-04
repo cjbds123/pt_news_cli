@@ -1,0 +1,10 @@
+README.md
+setup.py
+ptnews/__init__.py
+ptnews/__main__.py
+ptnews/news2.py
+ptnews.egg-info/PKG-INFO
+ptnews.egg-info/SOURCES.txt
+ptnews.egg-info/dependency_links.txt
+ptnews.egg-info/entry_points.txt
+ptnews.egg-info/top_level.txt

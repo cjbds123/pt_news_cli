@@ -8,9 +8,6 @@ def to_integer(dt_time):
     return 10000*dt_time.year + 100*dt_time.month + dt_time.day
 
 
-
-
-
 def main():
     print('Notícias observador ' + str(datetime.date.today()))
 
@@ -29,7 +26,7 @@ def main():
             p.add_run(new['fullTitle']).bold = True
             p.add_run(' -> ')
             p.add_run(new['lead'])
-            i = i + 1;
+            i = i + 1
         
     document1.save('news.docx')
 

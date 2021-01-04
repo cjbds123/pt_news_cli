@@ -1,0 +1,3 @@
+[console_scripts]
+ptnews = ptnews.__main__:main
+
