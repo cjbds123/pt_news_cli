@@ -1,10 +1,15 @@
-#Hello news CLI
+# Hello news CLI
 
 
-##How to use
+## Install
 
 ```
 sh install.sh
+```
+
+## Usage
+
+```
 ptnews
 ```
 
