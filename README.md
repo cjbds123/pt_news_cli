@@ -1,4 +1,4 @@
-# Hello news CLI
+# Observador news CLI
 
 
 ## Install
@@ -15,4 +15,4 @@ sh install.sh
 ptnews
 ```
 
-When executing the ```ptnews``` CLI, a .docx file with the top-14 news of the day, enough to fill 2 pages of text.
+When executing the ```ptnews``` CLI, a .docx file with the top-14 portuguese news of the day.
